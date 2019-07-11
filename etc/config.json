@@ -1,0 +1,15 @@
+{
+    "name": "Container Runtime Interface Manager for Docker Swarm",
+    "host": {
+        "mode": "swarm",
+        "base_url": "tcp://0.0.0.0:5000",
+        "version": "auto",
+        "timeout": 10,
+        "tls": false,
+        "user_agent": "",
+        "credstore_env": []
+    },
+    "templates": [{
+        "demo": "templates/demo.tpl"
+    }]
+}

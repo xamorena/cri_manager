@@ -1,0 +1,248 @@
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+ERROR:root:Error: list indices must be integers or slices, not str
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+ERROR:root:Error: list indices must be integers or slices, not str
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+ERROR:root:Error: list indices must be integers or slices, not str
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+ERROR:root:Error: list indices must be integers or slices, not str
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.99.100:2376
+ERROR:root:Error: HTTPConnectionPool(host='192.168.99.100', port=2376): Max retries exceeded with url: /v1.35/services/create (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x1126765f8>, 'Connection to 192.168.99.100 timed out. (connect timeout=60)'))
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.14:5001
+ERROR:root:Error: HTTPConnectionPool(host='192.168.1.14', port=5001): Max retries exceeded with url: /v1.35/services/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112676ac8>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.14:2377
+ERROR:root:Error: HTTPConnectionPool(host='192.168.1.14', port=2377): Max retries exceeded with url: /v1.35/services/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11268eb70>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 192.168.1.14:5001
+ERROR:root:Error: HTTPConnectionPool(host='192.168.1.14', port=5001): Max retries exceeded with url: /v1.35/services/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11269ac50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:2377
+ERROR:root:Error: HTTPConnectionPool(host='0.0.0.0', port=2377): Max retries exceeded with url: /v1.35/services/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11269aa90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5001
+ERROR:root:Error: HTTPConnectionPool(host='0.0.0.0', port=5001): Max retries exceeded with url: /v1.35/services/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11268ee48>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5001
+ERROR:root:Error: HTTPConnectionPool(host='0.0.0.0', port=5001): Max retries exceeded with url: /v1.35/services/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112676c88>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Bye!
+INFO:cri_manager.cri_manager_config:loading configuration
+INFO:cri_manager.cri_manager_config:configuration loaded
+INFO:root:CRI Manager: cri_manager release 1.0 is running on localhost
+INFO:cri_manager.cri_manager:Starting manager
+DEBUG:docker.utils.config:Trying paths: ['/Users/xavier/.docker/config.json', '/Users/xavier/.dockercfg']
+DEBUG:docker.utils.config:Found file at path: /Users/xavier/.docker/config.json
+DEBUG:docker.auth:Found 'auths' section
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5000 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for https://127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for registry.volbrain.labri.fr:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Auth data for 127.0.0.1:5443 is absent. Client might be using a credentials store instead.
+DEBUG:docker.auth:Found 'credsStore' section
+INFO:root:Creating services busybox echo 'hello world'
+DEBUG:docker.auth:Looking for auth config
+DEBUG:docker.auth:Using credentials store "osxkeychain"
+DEBUG:docker.auth:Looking for auth entry for 'https://index.docker.io/v1/'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No entry in credstore - fetching from auth dict
+DEBUG:docker.auth:Looking for auth entry for 'docker.io'
+DEBUG:docker.auth:No entry found
+DEBUG:docker.auth:No auth config found
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:5000
+ERROR:root:Error: HTTPConnectionPool(host='0.0.0.0', port=5000): Max retries exceeded with url: /v1.35/services/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b2eb400>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Bye!
